@@ -31,7 +31,7 @@ This is a simple Express.js API for logging  events to an SQLite database. The A
    ```bash
    node index.js
    # or if your file is named differently
-   node YOUR_FILENAME.js
+   npm start
    ```
 
 2. **API Endpoint:**
@@ -83,6 +83,7 @@ This is a simple Express.js API for logging  events to an SQLite database. The A
 
 - The table is created automatically if it doesn't exist.
 - You can inspect the database using any SQLite client:
+- dblite software ( https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win32.msi)
 
   ```bash
   sqlite3 data.db
